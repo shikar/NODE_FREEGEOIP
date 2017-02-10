@@ -1,0 +1,41 @@
+{
+  "name": "free-geoip",
+  "version": "1.0.0",
+  "description": "A free Ip Info",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "keywords": [
+    "ip",
+    "info",
+    "location",
+    "information",
+    "geo",
+    "free"
+  ],
+  "author": {
+    "name": "shikar",
+    "email": "qzh.shi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shikar/NODE_FREEGEOIP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shikar/NODE_FREEGEOIP/issues"
+  },
+  "homepage": "https://github.com/shikar/NODE_FREEGEOIP#readme",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^6.7.1"
+  },
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "nyc": "^10.1.2"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false
+  }
+}
